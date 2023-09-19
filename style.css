@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two&family=Poppins:wght@200;400;700&family=Roboto:wght@300;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url(pexels-zhang-kaiyv-1168940.jpg) no-repeat;
+  background: linear-gradient(rgba(10, 25, 67, 0.8) rgba(10, 25, 67, 0.8));
+  background-size: 100vw 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.container {
+  width: 80vw;
+  height: 40vh;
+  /* background: linear-gradient(rgb(74, 1, 1), rgb(197, 57, 57)); */
+  margin-top: 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 10px 0;
+  text-shadow: 10px 10px 10px black;
+  font-size: 8vw;
+  font-variant-caps: petite-caps;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  font-size: 10vw;
+  gap: 10px;
+  font-weight: 700;
+  text-shadow: 5px 5px 5px black;
+}
+
+#hours span {
+  background-color: red;
+}
+
+#hours,
+#minutes,
+#seconds {
+  width: 170px;
+}
